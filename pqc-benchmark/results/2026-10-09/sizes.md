@@ -1,0 +1,45 @@
+| Family | Parameter set | Public key | Secret key / stored state | Ciphertext / signature | Shared secret | Tree caches in RAM | Note |
+|---|---|--:|--:|--:|--:|--:|---|
+| ML-KEM | ML-KEM-512 | 800 | 1632 | 768 | 32 |  |  |
+| ML-KEM | ML-KEM-768 | 1184 | 2400 | 1088 | 32 |  |  |
+| ML-KEM | ML-KEM-1024 | 1568 | 3168 | 1568 | 32 |  |  |
+| ML-DSA | ML-DSA-44 | 1312 | 2560 | 2420 |  |  |  |
+| ML-DSA | ML-DSA-65 | 1952 | 4032 | 3309 |  |  |  |
+| ML-DSA | ML-DSA-87 | 2592 | 4896 | 4627 |  |  |  |
+| SLH-DSA | SLH-DSA-SHA2-128s | 32 | 64 | 7856 |  |  |  |
+| SLH-DSA | SLH-DSA-SHA2-128f | 32 | 64 | 17088 |  |  |  |
+| SLH-DSA | SLH-DSA-SHA2-192s | 48 | 96 | 16224 |  |  |  |
+| SLH-DSA | SLH-DSA-SHA2-192f | 48 | 96 | 35664 |  |  |  |
+| SLH-DSA | SLH-DSA-SHA2-256s | 64 | 128 | 29792 |  |  |  |
+| SLH-DSA | SLH-DSA-SHA2-256f | 64 | 128 | 49856 |  |  |  |
+| SLH-DSA | SLH-DSA-SHAKE-128s | 32 | 64 | 7856 |  |  |  |
+| SLH-DSA | SLH-DSA-SHAKE-128f | 32 | 64 | 17088 |  |  |  |
+| SLH-DSA | SLH-DSA-SHAKE-192s | 48 | 96 | 16224 |  |  |  |
+| SLH-DSA | SLH-DSA-SHAKE-192f | 48 | 96 | 35664 |  |  |  |
+| SLH-DSA | SLH-DSA-SHAKE-256s | 64 | 128 | 29792 |  |  |  |
+| SLH-DSA | SLH-DSA-SHAKE-256f | 64 | 128 | 49856 |  |  |  |
+| LMS/HSS | LMS-SHA256-M32-H5-W1 | 56 | 368 | 8684 |  | 1024 | 32 signatures |
+| LMS/HSS | LMS-SHA256-M32-H5-W2 | 56 | 368 | 4460 |  | 1024 | 32 signatures |
+| LMS/HSS | LMS-SHA256-M32-H5-W4 | 56 | 368 | 2348 |  | 1024 | 32 signatures |
+| LMS/HSS | LMS-SHA256-M32-H5-W8 | 56 | 368 | 1292 |  | 1024 | 32 signatures |
+| LMS/HSS | LMS-SHA256-M32-H10-W2 | 56 | 2160 | 4620 |  | 5120 | 1024 signatures |
+| LMS/HSS | LMS-SHA256-M32-H10-W4 | 56 | 2160 | 2508 |  | 5120 | 1024 signatures |
+| LMS/HSS | LMS-SHA256-M32-H10-W8 | 56 | 2160 | 1452 |  | 5120 | 1024 signatures |
+| LMS/HSS | LMS-SHA256-M24-H10-W4 | 48 | 1640 | 1500 |  | 3840 | 1024 signatures |
+| LMS/HSS | LMS-SHA256-M24-H10-W8 | 48 | 1640 | 900 |  | 3840 | 1024 signatures |
+| LMS/HSS | LMS-SHAKE-M32-H10-W4 | 56 | 2160 | 2508 |  | 5120 | 1024 signatures |
+| LMS/HSS | LMS-SHAKE-M24-H10-W4 | 48 | 1640 | 1500 |  | 3840 | 1024 signatures |
+| LMS/HSS | LMS-SHA256-M32-H15-W4 | 56 | 8304 | 2668 |  | 32768 | 32768 signatures |
+| LMS/HSS | HSS-SHA256-M32-H10+H10-W4 | 60 | 6812 | 5076 |  | 9216 | 1048576 signatures |
+| LMS/HSS | HSS-SHA256-M24-H10+H10-W4 | 52 | 4764 | 3052 |  | 6912 | 1048576 signatures |
+| XMSS | XMSS-SHA2_10_256 | 68 | 2188 | 2500 |  | 5120 | 2^10 signatures |
+| XMSS | XMSS-SHA2_10_192 | 52 | 1652 | 1492 |  | 3840 | 2^10 signatures |
+| XMSS | XMSS-SHAKE256_10_256 | 68 | 2188 | 2500 |  | 5120 | 2^10 signatures |
+| XMSS | XMSS-SHAKE256_10_192 | 52 | 1652 | 1492 |  | 3840 | 2^10 signatures |
+| XMSS | XMSSMT-SHA2_20/2_256 | 68 | 6788 | 4963 |  | 9216 | 2^20 signatures |
+| XMSS | XMSSMT-SHA2_20/4_256 | 68 | 8340 | 9251 |  | 3328 | 2^20 signatures |
+| XMSS | XMSSMT-SHA2_20/4_192 | 52 | 5132 | 5403 |  | 2496 | 2^20 signatures |
+| XMSS | XMSSMT-SHA2_40/8_256 | 68 | 18932 | 18469 |  | 6400 | 2^40 signatures |
+| XMSS | XMSSMT-SHA2_60/12_256 | 68 | 29524 | 27688 |  | 9472 | 2^60 signatures |
+| XMSS | XMSSMT-SHAKE256_20/4_256 | 68 | 8340 | 9251 |  | 3328 | 2^20 signatures |
+| XMSS | XMSSMT-SHAKE256_20/4_192 | 52 | 5132 | 5403 |  | 2496 | 2^20 signatures |

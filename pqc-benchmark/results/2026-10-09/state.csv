@@ -1,0 +1,11 @@
+run,scheme,impl,item,value
+run_A1,LMS-SHA256-M32-H10-W4,HW,cache_ram_bytes,5120.0
+run_A1,XMSSMT-SHA2_20/4_192,HW,cache_ram_bytes,2496.0
+run_A3,LMS-SHA256-M32-H5-W4,HW,cache_ram_bytes,1024
+run_A3,LMS-SHA256-M32-H10-W4,HW,cache_ram_bytes,5120
+run_A3,LMS-SHA256-M32-H15-W4,HW,cache_ram_bytes,32768
+run_A3,HSS-SHA256-M32-H10+H10-W4,HW,cache_ram_bytes,9216
+run_A3,XMSS-SHA2_10_256,HW,cache_ram_bytes,5120
+run_A3,XMSSMT-SHA2_20/2_256,HW,cache_ram_bytes,9216
+run_A3,XMSSMT-SHA2_20/4_256,HW,cache_ram_bytes,3328
+run_A3,XMSSMT-SHA2_60/12_256,HW,cache_ram_bytes,9472

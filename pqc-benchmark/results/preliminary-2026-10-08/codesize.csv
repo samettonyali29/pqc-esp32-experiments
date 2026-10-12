@@ -1,0 +1,17 @@
+baseline,default,281856,22172
+mlkem768,default,292168,22172
+mlkem_all,default,300032,22172
+mldsa65,default,295120,22172
+mldsa_all,default,307092,22172
+slhdsa128f,default,306792,23108
+slhdsa_all,default,311460,23116
+lms_ram,default,299108,22172
+xmss_ram,default,300556,22172
+lms,default,308428,22188
+xmss,default,309848,22188
+mlkem_all,stack,298520,22172
+mldsa_all,fast,307180,22172
+slhdsa128f,hwsha,311104,23132
+slhdsa_all,hwsha,317732,23132
+lms_ram,hwsha,300160,22212
+xmss_ram,hwsha,301892,22212

@@ -1,0 +1,30 @@
+2026-10-09 14:20:59 campaign start: port /dev/ttyACM0, segments: A1 B1 B2 A2 A3
+2026-10-09 14:20:59 segment A1: build (flags: none)
+2026-10-09 14:22:09 segment A1: Sketch uses 1025404 bytes (30%) of program storage space. Maximum is 3342336 bytes. Global variables use 106464 bytes (32%) of dynamic memory, leaving 221216 bytes for local variables. Maximum is 327680 bytes. 
+2026-10-09 14:22:09 segment A1: run 'wekdnoc'
+2026-10-09 14:49:21 segment A1: done
+2026-10-09 14:49:21 segment B1: build (flags: -DMLKEM_ESP32_USE_STACK -DMLDSA_ESP32_NO_REDUCE_RAM)
+2026-10-09 14:50:11 segment B1: Sketch uses 1023784 bytes (30%) of program storage space. Maximum is 3342336 bytes. Global variables use 106464 bytes (32%) of dynamic memory, leaving 221216 bytes for local variables. Maximum is 327680 bytes. 
+2026-10-09 14:50:11 segment B1: run 'wekdocq'
+2026-10-09 15:05:51 segment B1: done
+2026-10-09 15:05:51 segment B2: build (flags: -DMLKEM_ESP32_USE_STACK -DMLDSA_ESP32_NO_REDUCE_RAM -DMEM_STACK_KB=8)
+2026-10-09 15:06:42 segment B2: Sketch uses 1023784 bytes (30%) of program storage space. Maximum is 3342336 bytes. Global variables use 106464 bytes (32%) of dynamic memory, leaving 221216 bytes for local variables. Maximum is 327680 bytes. 
+2026-10-09 15:06:42 segment B2: run 'eor'
+2026-10-09 15:06:50 segment B2: done
+2026-10-09 15:06:50 segment A2: build (flags: none)
+2026-10-09 15:07:40 segment A2: Sketch uses 1025404 bytes (30%) of program storage space. Maximum is 3342336 bytes. Global variables use 106464 bytes (32%) of dynamic memory, leaving 221216 bytes for local variables. Maximum is 327680 bytes. 
+2026-10-09 15:07:40 segment A2: run 'weslx'
+2026-10-10 03:35:47 segment A2: done
+2026-10-10 03:35:47 segment A3: build (flags: none)
+2026-10-10 03:36:38 segment A3: Sketch uses 1025404 bytes (30%) of program storage space. Maximum is 3342336 bytes. Global variables use 106464 bytes (32%) of dynamic memory, leaving 221216 bytes for local variables. Maximum is 327680 bytes. 
+2026-10-10 03:36:38 segment A3: run 'eom'
+2026-10-10 08:57:03 segment A3: done
+2026-10-10 08:57:03 tables written: summary.md timings.csv runs.csv memory.csv memory_runs.csv state.csv
+2026-10-10 08:57:03 campaign end
+2026-10-10 08:57:24 campaign start: port /dev/ttyACM0, segments: B3
+2026-10-10 08:57:24 segment B3: build (flags: -DMLKEM_ESP32_USE_STACK -DMLDSA_ESP32_NO_REDUCE_RAM)
+2026-10-10 08:58:26 segment B3: Sketch uses 1023784 bytes (30%) of program storage space. Maximum is 3342336 bytes. Global variables use 106464 bytes (32%) of dynamic memory, leaving 221216 bytes for local variables. Maximum is 327680 bytes. 
+2026-10-10 08:58:26 segment B3: run 'ed'
+2026-10-10 09:04:48 segment B3: done
+2026-10-10 09:04:49 tables written: summary.md timings.csv runs.csv memory.csv memory_runs.csv state.csv
+2026-10-10 09:04:49 campaign end
